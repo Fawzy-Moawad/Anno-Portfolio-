@@ -337,11 +337,6 @@ section {
 .about {
   background-color: #6F5A49;
 }
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #7F938C;
-}
 
 .about .content ul {
   list-style: none;
@@ -356,6 +351,7 @@ section {
 
 .about .content ul strong {
   margin-right: 10px;
+  color: #7F938C;
 }
 
 .about .content ul i {
