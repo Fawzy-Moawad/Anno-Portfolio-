@@ -82,14 +82,25 @@
     onscroll(document, toggleBacktotop)
   }
 
-  /**
-   * Mobile nav toggle
-   */
-  on('click', '.mobile-nav-toggle', function(e) {
-    select('body').classList.toggle('mobile-nav-active')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
-  })
+  // Select the mobile nav toggle button and header
+const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+const header = document.getElementById('header');
+
+// Toggle the 'mobile-nav-active' class on the body when the nav toggle is clicked
+mobileNavToggle.addEventListener('click', () => {
+  document.body.classList.toggle('mobile-nav-active');
+});
+
+// Optionally, close the navigation when a link is clicked
+const navLinks = document.querySelectorAll('#navbar .nav-link');
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    if (document.body.classList.contains('mobile-nav-active')) {
+      document.body.classList.remove('mobile-nav-active');
+    }
+  });
+});
+
 
   /**
    * Scrool with ofset on links with a class name .scrollto

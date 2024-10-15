@@ -227,6 +227,17 @@ h6 {
   left: 0;
 }
 
+/* Hide the nav initially */
+#header {
+  left: -300px;
+}
+
+/* Make sure the nav appears when active */
+.mobile-nav-active #header {
+  left: 0;
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
