@@ -303,10 +303,6 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  background: #f5f8fd;
-}
-
 .section-title {
   padding-bottom: 30px;
 }
@@ -317,7 +313,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #270A07;
 }
 
 .section-title h2::after {
@@ -326,7 +322,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #270A07;
   bottom: 0;
   left: 0;
 }
@@ -344,7 +340,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #7F938C;
 }
 
 .about .content ul {
@@ -365,7 +361,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #7F938C;
   line-height: 0;
 }
 
