@@ -187,7 +187,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #7F938C;
+  color: #270A07;
 }
 
 .nav-menu a:hover i,
@@ -351,12 +351,12 @@ section {
 
 .about .content ul li a {
   text-decoration: none;
-  color: inherit; /* Optional: This makes the link inherit the text color, keeping it consistent */
+  color: inherit; 
 }
 
 .about .content ul li a:hover {
   text-decoration: none;
-  color: #A9A595; /* Optional: Customize the hover color if needed */
+  color: #A9A595; 
 }
 
 
