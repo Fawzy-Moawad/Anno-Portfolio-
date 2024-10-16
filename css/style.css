@@ -350,6 +350,16 @@ section {
   color: #fff;
 }
 
+.about p a {
+  color: #7F938C;
+  text-decoration: none;
+}
+
+.about p a:hover {
+  color: #A9A595;
+  text-decoration: none;
+}
+
 .about img {
   height: 400px;
 }
