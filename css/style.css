@@ -346,6 +346,9 @@ section {
   color: #fff;
 }
 
+.about img {
+  height: 400px;
+}
 .about .content ul {
   list-style: none;
   padding: 0;
