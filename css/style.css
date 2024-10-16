@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #C0AB95;
+  color: #272829;
   text-decoration: none;
 }
 
 a:hover {
-  color: #7F938C;
+  color: #272829;
   text-decoration: none;
 }
 
@@ -338,6 +338,14 @@ section {
   background-color: #6F5A49;
 }
 
+.about .section-title p {
+  color: #fff;
+}
+
+.about p {
+  color: #fff;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -356,13 +364,17 @@ section {
 
 .about .content ul li a:hover {
   text-decoration: none;
-  color: #A9A595; 
+  color: #7F938C; 
 }
 
 
 .about .content ul strong {
   margin-right: 10px;
-  color: #7F938C;
+  color: #270A07;
+}
+
+.about .content ul span {
+  color: #fff;
 }
 
 .about .content ul i {
@@ -391,6 +403,17 @@ section {
   color: #050d18;
 }
 
+/* Remove text decoration from links wrapping .resume-item */
+.resume .resume-item a {
+  color: #272829;
+  text-decoration: none;
+}
+
+.resume .resume-item a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -404,7 +427,6 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
   margin-bottom: 10px;
 }
 
@@ -479,11 +501,8 @@ section {
   color: #050d18;
 }
 
-.contact .info p {
-  padding: 0 0 10px 60px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  color: #173b6c;
+.contact .section-title p {
+  color: #fff;
 }
 
 .contact .info .email p {
