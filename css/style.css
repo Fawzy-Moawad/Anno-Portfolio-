@@ -91,9 +91,11 @@ h6 {
 
 
 
-
-
 .svg-section {
+  background-color: #6F5A49;
+}
+
+.svg-img {
   object-fit: cover;
   justify-content: center;
 }
