@@ -88,6 +88,16 @@ h6 {
   object-position: center; /* Center the video */
 }
 
+
+
+
+
+
+.svg-section {
+  object-fit: cover;
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -466,6 +476,16 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about .resume-button {
+  background-color: #7F938C;
+  color: #270A07;
+}
+
+.about .resume-button:hover {
+  background-color: #A9A595;
+  color: #270A07;
 }
 
 /*--------------------------------------------------------------
