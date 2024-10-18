@@ -84,7 +84,8 @@ h6 {
 .video01 video {
   width: 100%; /* Make sure it covers the full width */
   height: 100%; /* Make the height fill the container */
-  object-fit:none ; /* Ensure the entire video content is shown */
+  object-fit:cover ; /* Ensure the entire video content is shown */
+  object-position: center; /* Center the video */
 }
 
 /*--------------------------------------------------------------
