@@ -25,6 +25,68 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+/*
+  SOcial Links
+*/
+#social-other {
+  background-color: #7F938C;
+}
+.social-other ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-other ul li {
+  display: inline-block;
+  margin-right: 2px; /* Adjust as needed */
+}
+
+.social-other ul li:last-child {
+  margin-right: 0;
+}
+
+.social-other ul li a {
+  font-size: 18px;
+  display: inline-block;
+  background: #C0AB95;
+  color: #fff;
+  line-height: 40px; /* Center vertically */
+  padding: 0; /* Remove padding */
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.social-other ul li a i {
+  line-height: 40px; /* Center vertically */
+}
+
+.social-other ul li a:hover {
+  background: #6F5A49;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*---------------------------------
+  video section
+---------------------------------*/
+.video01 {
+  position: relative;
+  width: 100%; /* Full viewport width */
+  height: 300px; /* Set your desired height */
+  overflow: hidden; /* Hide the overflow to cut off edges */
+}
+
+.video01 video {
+  width: 100%; /* Make sure it covers the full width */
+  height: 100%; /* Make the height fill the container */
+  object-fit:none ; /* Ensure the entire video content is shown */
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
