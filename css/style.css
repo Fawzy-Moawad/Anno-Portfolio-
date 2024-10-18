@@ -74,14 +74,14 @@ h6 {
 /*---------------------------------
   video section
 ---------------------------------*/
-.video01 {
+.video {
   position: relative;
   width: 100%; /* Full viewport width */
   height: 300px; /* Set your desired height */
   overflow: hidden; /* Hide the overflow to cut off edges */
 }
 
-.video01 video {
+.video video {
   width: 100%; /* Make sure it covers the full width */
   height: 100%; /* Make the height fill the container */
   object-fit:cover ; /* Ensure the entire video content is shown */
