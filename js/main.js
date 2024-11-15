@@ -224,52 +224,6 @@
 
 
   /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
-    }
-  });
-
-  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
@@ -287,3 +241,25 @@
   new PureCounter();
 
 })()
+
+
+/*
+* Contact form vaild form 
+*/
+function validateForm() {
+  const sentMessage = document.getElementById('sent-message');
+  const errorMessage = document.getElementById('error-message');
+  sentMessage.style.display = 'none';
+  errorMessage.style.display = 'none';
+
+  // Simulating success or failure (In real use, replace this with actual email handling logic)
+  const isSuccess = true; // Set to true or false based on real validation logic
+
+  if (isSuccess) {
+    sentMessage.style.display = 'block';
+  } else {
+    errorMessage.style.display = 'block';
+  }
+  
+  return false; // Prevent default form submission
+}

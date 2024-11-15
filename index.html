@@ -213,7 +213,7 @@
                           <img src="./img/gallery/05.webp" class="img-fluid" alt="">
                       </div>
                   </a>
-                </div>
+                </div> 
 
                 <div class="col-lg-4 col-md-6 gallery-item filter-app">
                     <a href="./img/gallery/08.webp" class="glightbox">
@@ -277,6 +277,30 @@
                           <img src="./img/gallery/12.webp" class="img-fluid" alt="">
                       </div>
                   </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 gallery-item filter-app">
+                  <a href="./img/gallery/16.webp"  class="glightbox">
+                      <div class="gallery-wrap rounded border">
+                          <img src="./img/gallery/16.webp" class="img-fluid" alt="">
+                      </div>
+                  </a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 gallery-item filter-web">
+                <a href="./img/gallery/17.webp" class="glightbox">
+                    <div class="gallery-wrap rounded border">
+                        <img src="./img/gallery/17.webp" class="img-fluid" alt="">
+                    </div>
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 gallery-item filter-app">
+                <a href="./img/gallery/18.webp" class="glightbox">
+                    <div class="gallery-wrap rounded border">
+                        <img src="./img/gallery/18.webp" class="img-fluid" alt="">
+                    </div>
+                </a>
               </div>
 
             </div>
@@ -302,37 +326,32 @@
               Drop a message, and I'll get back to you as soon as possible.
             </p>
           </div>
-          
-          <form action="mailto:anno.mohamed88@gmail.com" method="GET" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+
+
+          <!---->
+          <form action="mailto:anno.mohamed88@gmail.com" method="GET" class="php-email-form" data-aos="fade-up" data-aos-delay="100" onsubmit="return validateForm()">
   
             <div class="row gy-4">
-  
               <div class="col-md-6">
                 <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
               </div>
-  
               <div class="col-md-6 ">
                 <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
               </div>
-  
               <div class="col-md-12">
                 <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
               </div>
-  
               <div class="col-md-12">
                 <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
               </div>
-  
               <div class="col-md-12 text-center">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-  
+                <div class="error-message" id="error-message">There was an error sending your message.</div>
+                <div class="sent-message" id="sent-message">Your message has been sent. Thank you!</div>
                 <button type="submit">Send Message</button>
               </div>
-  
             </div>
-          </form><!-- End Contact Form -->
+          </form>
+          
         </div>
 
       </section>
